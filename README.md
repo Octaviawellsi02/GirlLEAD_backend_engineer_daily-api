@@ -38,8 +38,6 @@ I used Node.js to initialize my project by writing this command in the terminal
 
 ```bash
 npm init -y
-![t1](https://github.com/user-attachments/assets/deb01bdf-d255-4d4d-8c12-6b4f064e5445)
-
 
 ```
 
@@ -59,18 +57,16 @@ Now that I have identified which tools I want to use and how they will each help
 
 ```bash
 npm install express
-![t2](https://github.com/user-attachments/assets/34109556-bc70-4bdc-98d7-d66fac3ece2b)
 
 npm install mongoose
-![t3](https://github.com/user-attachments/assets/78d910a4-df9e-4bc0-ab33-fc68b6795f63)
 
 npm install dotenv
-![t4](https://github.com/user-attachments/assets/48b2d3f1-c03b-40b9-895b-1ada934b4b79)
 
 npm install --save-dev nodemon
-![t5](https://github.com/user-attachments/assets/c0c0484b-3157-4bd0-8c50-9e7eddf1b5ab)
+
 
 ```
+![t1](https://github.com/user-attachments/assets/156ee8b9-18d4-40c0-9e6b-416bb3cc8a31)
 
 ---
 
