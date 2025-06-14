@@ -187,3 +187,18 @@ This confirmed that my server was running successfully.
 
 ![t11](https://github.com/user-attachments/assets/4a8f7684-fbcc-46a2-adc9-a0b94baa2afb)
 
+---
+### Task8
+# 🌸Adding To-Do List Features🌸
+We will build a CRUD API that allows us to:
+
+- Create a task (POST)
+
+- Read tasks (GET)
+
+- Update a task (PUT)
+
+- Delete a task (DELETE)
+
+This forms the complete set of operations for managing tasks.
+
