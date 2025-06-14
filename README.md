@@ -160,5 +160,27 @@ Tried to connect to MongoDB using the connection string from the .env file
 
 ![t9](https://github.com/user-attachments/assets/be6ad320-92c3-4081-8920-1c12ccbdf52a)
 
+---
+
+Got it! Here’s that part with an explanation of why I chose that address:
+
+---
+
+### Step 7
+
+**Tested My Server in the Browser**
+
+I opened my browser (I used Google Chrome, but any browser works like Firefox or Edge).
+
+In the address bar, I typed:
+`http://localhost:5000/`
+
+I chose this address because my server is running locally on my computer (localhost) and listening on port 5000, which is the default port I set for the server.
+
+After opening the page, I saw the message:
+**Hello, GirlLEAD Backend Engineer!**
+
+This confirmed that my server was running successfully.
+![t10](https://github.com/user-attachments/assets/c3641076-25e8-42b5-a43a-1e88901a5f13)
 
 
