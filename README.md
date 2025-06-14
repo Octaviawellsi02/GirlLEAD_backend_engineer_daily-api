@@ -68,19 +68,19 @@ npm install --save-dev nodemon
 
 
 ```
-#npm install express - 
+# npm install express - 
 helps build the actual API routes like GET, POST, PUT, and DELETE.
 ![t2](https://github.com/user-attachments/assets/81156e31-2d13-4fb7-bbb4-9c93d0d9b4c5)
 
-#npm install mongoose
+# npm install mongoose
 allows the app to communicate with MongoDB, where the tasks will be saved.
 ![t3](https://github.com/user-attachments/assets/547ab52c-87c1-4eee-858e-8262a5f0f5c4)
 
-#npm install dotenv
+# npm install dotenv
 helps create a .env file to hide secret information, such as the database link.
 ![t4](https://github.com/user-attachments/assets/51a07547-4684-41a6-997b-74e23cee529b)
 
-#npm install --save-dev nodemon
+# npm install --save-dev nodemon
 watches the files and automatically restarts the server every time a change is saved.
 ![t5](https://github.com/user-attachments/assets/7311a086-440b-4e65-9ef2-bd346582d611)
 
