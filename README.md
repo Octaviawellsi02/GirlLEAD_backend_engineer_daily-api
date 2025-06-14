@@ -86,4 +86,35 @@ watches the files and automatically restarts the server every time a change is s
 
 ---
 
+### Step 4 Create the First Server File
+
+I created the first server file. What role will this file play? Here is what I will do:
+
+* Make a file called `server.js`
+* Use this file to start my backend server with Express
+* Connect to my MongoDB database using Mongoose
+* Listen for API requests
+
+I will call this file `server.js`.
+
+---
+
+### What My server.js Code Does
+
+I import the tools I need — Express to build the API, Mongoose to connect to the database, and Dotenv to load secret settings.
+
+I load environment variables from a `.env` file so I can keep my database connection string secret.
+
+I create an Express app and tell it to understand JSON data sent by users.
+
+I connect to my MongoDB database using Mongoose and handle success or error messages.
+
+I set up a simple route `/` that sends a friendly message so I know the API is working.
+
+I start my server, telling it to listen on a port (5000 by default) and log a message when the server is ready.
+
+![t6](https://github.com/user-attachments/assets/ae7209d7-2206-4a96-8caa-398ac5102c20)
+
+---
+
 
