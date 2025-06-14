@@ -116,5 +116,32 @@ I start my server, telling it to listen on a port (5000 by default) and log a me
 ![t6](https://github.com/user-attachments/assets/ae7209d7-2206-4a96-8caa-398ac5102c20)
 
 ---
+Got it! Here's your revised section without that extra detail and without mentioning the full connection string. It's clean, in first person, and suitable for your README:
+
+---
+
+### Step 5
+
+**Created the .env File with My Database Link**
+
+First, I needed a MongoDB connection string. I created a file called `.env` in my project.
+
+I then created my MongoDB database link using MongoDB Atlas.
+
+When setting up MongoDB Atlas, I selected **JavaScript** and then **Node.js** as my application language.
+
+I chose this because:
+
+* My backend is built with Node.js using JavaScript
+* Mongoose is a library made for Node.js
+* Selecting Node.js provides the correct connection string for my project
+
+Once I had the connection string, I added it to the `.env` file using the key `MONGO_URI`.
+
+This is how I connected my project to the MongoDB database.
+![t7](https://github.com/user-attachments/assets/34d2f57b-fbb4-421e-93ee-3ef0d9942794)
+
+![t8](https://github.com/user-attachments/assets/9380b079-2d6e-4225-8c57-3c4548110e1a)
+
 
 
