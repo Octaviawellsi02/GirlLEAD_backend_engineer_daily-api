@@ -143,5 +143,22 @@ This is how I connected my project to the MongoDB database.
 
 ![t8](https://github.com/user-attachments/assets/9380b079-2d6e-4225-8c57-3c4548110e1a)
 
+---
+
+# Step 6
+# Run My Server with Nodemon
+
+To test my server, I opened the terminal in VS Code and ran the following command:
+
+npx nodemon server.js
+
+This command did the following:
+
+Started my Express server
+
+Tried to connect to MongoDB using the connection string from the .env file
+
+![t9](https://github.com/user-attachments/assets/be6ad320-92c3-4081-8920-1c12ccbdf52a)
+
 
 
