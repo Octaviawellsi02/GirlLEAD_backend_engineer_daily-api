@@ -189,7 +189,7 @@ This confirmed that my server was running successfully.
 
 ---
 ### Task8
-# 🌸Adding To-Do List Features🌸
+# Adding To-Do List Features
 We will build a CRUD API that allows us to:
 
 - Create a task (POST)
@@ -202,3 +202,4 @@ We will build a CRUD API that allows us to:
 
 This forms the complete set of operations for managing tasks.
 
+---
