@@ -203,3 +203,32 @@ We will build a CRUD API that allows us to:
 This forms the complete set of operations for managing tasks.
 
 ---
+Thanks for clarifying! Since you have **four separate files** for each CRUD method, here’s a clean, first-person step summary reflecting that, with the single update to `server.js` at the end:
+
+---
+
+### 🌼 Step 8.1: Adding Full CRUD Routes for To-Do List
+
+1. **Created `post.js`**
+   I started by building `post.js` to handle creating new tasks with POST requests.
+![post-03](https://github.com/user-attachments/assets/4f2e03cf-3179-4ae9-af97-f303190b06a2)
+
+2. **Created `get.js`**
+   Next, I created `get.js` to allow fetching all tasks or a specific task using GET requests.
+![get-02](https://github.com/user-attachments/assets/74d04649-48b4-41de-b151-34fb9bb93f0e)
+
+3. **Created `put.js`**
+   Then, I added `put.js` which contains the logic for updating tasks, such as editing a task’s title or marking it completed, via PUT requests.
+![put](https://github.com/user-attachments/assets/273c32c1-e78d-48d2-838c-86db1f3374ef)
+
+4. **Created `delete.js`**
+   After that, I created `delete.js` to handle deleting tasks from the database using DELETE requests.
+![delete-01](https://github.com/user-attachments/assets/171a3768-97c5-4efb-a018-c5ef314a57c4)
+
+5. **Updated `server.js` to include all routes**
+   Finally, I updated `server.js` once to import and activate all four route files — `post.js`, `get.js`, `put.js`, and `delete.js`. This made my server fully capable of handling all CRUD operations for the To-Do List API.
+![server](https://github.com/user-attachments/assets/523d3d13-e824-4015-acb7-54bcdb226216)
+
+---
+
+
