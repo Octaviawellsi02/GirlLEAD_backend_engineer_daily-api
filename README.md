@@ -1,4 +1,4 @@
-# GirlLEAD_backend_engineer_daily-api
+# 🌸 GirlLEAD_backend_engineer_daily-api 🌸
 
 ---
 
@@ -183,4 +183,7 @@ After opening the page, I saw the message:
 This confirmed that my server was running successfully.
 ![t10](https://github.com/user-attachments/assets/c3641076-25e8-42b5-a43a-1e88901a5f13)
 
+# 🌸 Checklist of what i have Achieved so far with project 🌸
+
+![t11](https://github.com/user-attachments/assets/4a8f7684-fbcc-46a2-adc9-a0b94baa2afb)
 
