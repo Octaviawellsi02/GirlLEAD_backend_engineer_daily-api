@@ -40,6 +40,8 @@ I used Node.js to initialize my project by writing this command in the terminal
 npm init -y
 
 ```
+![t1](https://github.com/user-attachments/assets/264c938b-e5c3-45f4-ae73-fa33dad82f33)
+
 
 This command tells Node.js that I am starting a new project. It creates a special file that manages my project’s information.
 It creates a file called `package.json` which helps me keep track of the project name, version control, and dependencies.
@@ -66,7 +68,21 @@ npm install --save-dev nodemon
 
 
 ```
-![t1](https://github.com/user-attachments/assets/156ee8b9-18d4-40c0-9e6b-416bb3cc8a31)
+#npm install express - 
+helps build the actual API routes like GET, POST, PUT, and DELETE.
+![t2](https://github.com/user-attachments/assets/81156e31-2d13-4fb7-bbb4-9c93d0d9b4c5)
+
+#npm install mongoose
+allows the app to communicate with MongoDB, where the tasks will be saved.
+![t3](https://github.com/user-attachments/assets/547ab52c-87c1-4eee-858e-8262a5f0f5c4)
+
+#npm install dotenv
+helps create a .env file to hide secret information, such as the database link.
+![t4](https://github.com/user-attachments/assets/51a07547-4684-41a6-997b-74e23cee529b)
+
+#npm install --save-dev nodemon
+watches the files and automatically restarts the server every time a change is saved.
+![t5](https://github.com/user-attachments/assets/7311a086-440b-4e65-9ef2-bd346582d611)
 
 ---
 
