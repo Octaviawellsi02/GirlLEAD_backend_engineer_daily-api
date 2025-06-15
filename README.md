@@ -319,6 +319,33 @@ After clicking Send, I received the updated task back with the new title, descri
 ![b5](https://github.com/user-attachments/assets/34d216af-5e0e-4211-bd59-57a1a9cb7ad2)
 
 ---
+Here’s that part written in first person for your README:
+
+---
+
+**Step 5: Test DELETE — Remove a task**
+I set the method to **DELETE** in Postman and used the URL:
+
+```
+http://localhost:5000/tasks/684ea347c7f0ec0a003ae154
+```
+
+(using the same task ID I wanted to delete)
+
+I didn’t need to include anything in the Body tab for this request.
+
+After clicking Send, I received a response message like:
+
+```json
+{ "message": "Task deleted successfully" }
+```
+
+This confirmed the task was removed. To double-check, I did another **GET /tasks** request — and the deleted task was no longer there.
+![b6](https://github.com/user-attachments/assets/d78551e7-29e4-4e2d-98f7-708d804dc214)
+
+---
+
+
 
 
 
