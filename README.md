@@ -401,6 +401,8 @@ npm start
 ![b10](https://github.com/user-attachments/assets/dc65b485-bebc-47f8-ae3d-bab4a647d8de)
 
 My browser opens at `http://localhost:3000/` where I see the React welcome page.
+![a1](https://github.com/user-attachments/assets/4c7d5d3c-2665-4533-ae77-de5a98dfa982)
+![a2](https://github.com/user-attachments/assets/e1bd3e21-163d-4513-b9db-4d19a4ed268f)
 
 ---
 
