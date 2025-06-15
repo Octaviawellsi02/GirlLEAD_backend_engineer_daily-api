@@ -292,6 +292,35 @@ I clicked Send and expected to receive the new task data back, including a uniqu
 ![b3](https://github.com/user-attachments/assets/9450958c-ef82-4bd5-9be7-7f06310679a9)
 
 ---
+Here’s that part written clearly in first person for your README:
+
+---
+
+**Step 4: Test PUT — Update an existing task**
+I took the `_id` I got from the POST or GET response (for example: `"684ea347c7f0ec0a003ae154"`).
+In Postman, I set the method to **PUT** and used this URL:
+
+```
+http://localhost:5000/tasks/684ea347c7f0ec0a003ae154
+```
+![b4](https://github.com/user-attachments/assets/5133298f-30d1-4f66-8929-072b2c40ac4c)
+
+Then, in the Body tab, I selected **raw** and **JSON**, and pasted this JSON:
+
+```json
+{
+  "title": "Finish backend API - updated",
+  "description": "Add more test cases",
+  "completed": true
+}
+```
+
+After clicking Send, I received the updated task back with the new title, description, and completed status. This confirmed the task in the database was successfully updated.
+![b5](https://github.com/user-attachments/assets/34d216af-5e0e-4211-bd59-57a1a9cb7ad2)
+
+---
+
+
 
 
 
