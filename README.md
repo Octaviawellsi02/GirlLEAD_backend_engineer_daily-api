@@ -366,6 +366,44 @@ I now understand how data flows from the client → through the API → into the
 This project simulates what a backend engineer does in the real world — structuring routes, managing data, handling requests, and keeping things organized.
 
 ---
+Absolutely! Here's the README text fully in first person, ready for you to paste:
+
+---
+
+# GirlLEAD To-Do List Frontend
+
+## Step 1: Create My React App
+
+I open my terminal (I use the VS Code terminal) and navigate to the folder where I want to keep my frontend project.
+
+I run this command to create a new React app:
+
+```bash
+npx create-react-app girllead-todo-frontend
+```
+![b8](https://github.com/user-attachments/assets/d99d6e40-d9c3-4258-ae0f-3a813e84dd86)
+
+This takes a few minutes as it installs everything I need.
+
+When it finishes, I see a new folder called `girllead-todo-frontend` with my React app inside.
+![b9](https://github.com/user-attachments/assets/f1187c94-7ad3-467d-a4e8-ba56737b10e3)
+
+---
+
+## Step 2: Start My React App
+
+I navigate into the new folder and start the React development server:
+
+```bash
+cd girllead-todo-frontend
+npm start
+```
+![b10](https://github.com/user-attachments/assets/dc65b485-bebc-47f8-ae3d-bab4a647d8de)
+
+My browser opens at `http://localhost:3000/` where I see the React welcome page.
+
+---
+
 
 
 
