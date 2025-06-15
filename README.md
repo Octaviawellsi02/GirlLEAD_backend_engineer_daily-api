@@ -405,6 +405,56 @@ My browser opens at `http://localhost:3000/` where I see the React welcome page.
 ![a2](https://github.com/user-attachments/assets/e1bd3e21-163d-4513-b9db-4d19a4ed268f)
 
 ---
+Got it! Here’s a focused README section just for the **frontend part** we completed so far, written in first person:
+
+---
+
+## Frontend Setup and Work So Far
+
+I created the frontend for my GirlLEAD Daily Tasks app using **React**. Here’s what I did step-by-step:
+
+1. I opened a terminal and navigated to the folder where I wanted my frontend code.
+
+2. I ran this command to create a new React app:
+
+   ```bash
+   npx create-react-app girllead-todo-frontend
+   ```
+
+   This created a new folder named `girllead-todo-frontend` with all the React setup.
+
+3. I opened the project folder in VS Code.
+
+4. Inside the React app, I replaced the default `App.js` code with my own code that:
+
+   * Fetches tasks from my backend API.
+   * Displays the list of tasks.
+   * Lets me add new tasks with a simple input and button.
+   * Allows me to delete tasks by clicking a delete button.
+
+5. I ran the frontend locally by typing:
+
+   ```bash
+   npm start
+   ```
+
+   This opened the React app in my browser on `http://localhost:3000`.
+
+6. I tested adding and deleting tasks, and everything was working — tasks showed up after adding, and the delete buttons worked.
+
+7. I made sure the backend server was running with CORS enabled so the frontend could communicate with it without errors.
+
+---
+![b1](https://github.com/user-attachments/assets/386b6593-0e78-4bab-85e6-dfdbf0d94bd3)
+![b2](https://github.com/user-attachments/assets/09b90ceb-9b5e-4fca-b902-6a9d6d447621)
+![b3](https://github.com/user-attachments/assets/4a1ce57f-6b0d-4b3c-9010-fa9a1f841a72)
+
+This is where I am with the frontend now. Next, I plan to improve the UI and add update functionality.
+
+---
+
+
+
 
 
 
