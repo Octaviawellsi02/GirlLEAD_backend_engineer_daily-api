@@ -230,5 +230,44 @@ Thanks for clarifying! Since you have **four separate files** for each CRUD meth
 ![server](https://github.com/user-attachments/assets/523d3d13-e824-4015-acb7-54bcdb226216)
 
 ---
+Got it! Here’s the updated version with the actual output you received included:
+
+---
+
+### Step 9: Confirm Everything Is Working Perfectly
+
+**Step 1: Make sure my server is running**
+I ran this command in my terminal:
+
+```bash
+npx nodemon server.js
+```
+
+I saw the messages:
+
+```
+MongoDB connected  
+Server running on port 5000
+```
+
+This confirmed my backend was connected and ready.
+![b1](https://github.com/user-attachments/assets/3fc73e2b-2d23-4d20-af00-d3453e382675)
+
+**Step 2: Test each route in Postman**
+
+* **GET — Get all tasks**
+  I sent a GET request to:
+
+  ```
+  http://localhost:5000/tasks
+  ```
+
+  No body needed. I clicked Send and got an empty array `[]` in response.
+  This means the API successfully connected to the database and returned all tasks, but since I had not added any tasks yet, the list was empty. It confirmed that the Read operation of my CRUD API is working correctly.
+![b2](https://github.com/user-attachments/assets/7335e6bf-a305-451c-a2ee-ad396b504aec)
+
+---
+
+
 
 
